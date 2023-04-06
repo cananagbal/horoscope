@@ -1,17 +1,17 @@
-@import "../src/scss/reset";
-@import "../src/scss/variables";
-@import "../src/scss/mixins";
+@import "./scss/reset";
+@import "./scss/variables";
+@import "./scss/mixins";
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap'); //Google Fonts dan rubik aldık. bunu body de kullanacağız
 
-@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap'); //Google Fonts dan Almendra fontu bunu p de kullanacağız 
 
 body{
     font-family: 'Rubik Distressed', cursive;
     height: 100vh;
-    background-image: $backgroundImage;
+    background-image: $backgroundImage; //linear-gradient(225deg, #000000 0%, #cd890c 90%, #2b86c5 100% );
     background-attachment: fixed;
 
 }
@@ -21,3 +21,7 @@ p{
     color: white;
 
 }
+
+
+//Genel olarak kullanacağımız font ları burada import ediyoruz.
+//sass da import ederken @ kullanıyoruz.
