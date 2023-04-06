@@ -17,3 +17,5 @@ const App = () => {
 export default App;
 
 
+//yarn add sass  veya npm install sass ile eklendi.
+//
