@@ -18,4 +18,6 @@ export default App;
 
 
 //yarn add sass  veya npm install sass ile eklendi.
-//
+// _reset.scss=>resetleme işlemleri 
+// _variables.scss =>ile değişkenleri
+//_
